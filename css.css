@@ -1,0 +1,38 @@
+h1{
+    font-family: impact, fantasy;
+    background-color:  lightgray;
+    color:black;
+}
+
+p{
+    font-family: arial, sans-serif;
+    font-size: 20px;
+}
+
+#search{
+    border: 2px solid darkslategray;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 8px;
+}
+
+#search:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+
+}
+
+body, #artistInfo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: #FFDAB9;*/
+}
+
+
+#icon, #apple1, #apple2{
+    height: 2%;
+    width: 2%;
+}
+

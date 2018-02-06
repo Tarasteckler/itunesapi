@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iTunes API Project</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="java.js"></script>
+</head>
+<body onload="hideAll()">
+<h1 id="title" style="position: relative"><img id="apple1" src="img/apple.png"/> iTunes Artist Search<img id="apple2" src="img/apple.png"/> </h1>
+
+<p id="q1">Search for an artist <a href="#" onclick=""><img id="icon" src ="img/search.png" onclick="show()"/></a></p>
+<select id='artists'>
+    <option value="Kendrick+Lamar">Kendrick Lamar</option>
+    <option value="Pink+Floyd">Pink Floyd</option>
+    <option value="The+Beatles">The Beatles</option>
+    <option value="Jack+Johnson">Jack Johnson</option>
+    <option value="Snoop+Dogg">Snoop Dogg</option>
+    <option value="Nina+Simone">Nina Simone</option>
+    <option value="Amy+Winehouse">Amy Winehouse</option>
+    <option value="Grateful+Dead"> Grateful Dead</option>
+    <option value="OutKast">OutKast</option>
+    <option value="Kanye+West">Kanye West</option>
+    <option value="Frank+Ocean">Frank Ocean</option>
+</select>
+
+<p id="question2">How many top songs do you want to see?</p>
+
+<select id='number'>
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="15">15</option>
+    <option value="25">25</option>
+    <option value="50">50</option>
+</select><br>
+
+<br><button id="search" style="position: relative">Search for artist's top songs!</button><br><br>
+
+<table id="artistInfo" border="1" cellspacing="0" cellpadding="15"></table>
+
+</body>
+</html>
